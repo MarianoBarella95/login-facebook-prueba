@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Neue';
+    src: url(./Fuentes/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(./Fuentes/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Romedium';
+    src: url(./Fuentes/Roboto-Medium.ttf);
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,89,152,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Neue';    
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: relative;
+    left: 350px; */
+    flex-wrap: wrap;
+    width: 400px;
+    height: 500px;
+    background-color:#f7f7f7;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(247, 247, 247, .4)
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 100px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    letter-spacing: 3px;
+    color: #4267B2;
+}
+
+.input-mail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#mail {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: 	#dfe3ee;
+    font-family: 'Roboto';
+    letter-spacing: 0.5px;
+}
+
+.input-contra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#contra {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: 	#dfe3ee;
+    font-family: 'Roboto';
+    letter-spacing: 0.5px;
+}
+
+.boton1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#ingresar {
+    border: none;
+    background-color: #8b9dc3;
+    width: 170px;
+    height: 35px;
+    letter-spacing: 0.8px;
+    font-family: 'Romedium';
+}
+
+#ingresar:hover {
+    background-color: #3b5998;
+    box-shadow: 0 5px 15px rgba(59, 89, 152, .5);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.boton2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#olvidar {
+    border: none;
+    width: 150px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#olvidar:hover {
+    background-color: #D0312D;
+}
